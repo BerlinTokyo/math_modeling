@@ -1,0 +1,12 @@
+a=[1,5,'Good','Bad']
+b=[9,'Blue','Red',11]
+x=(a[1])+(b[3])
+print(x)
+y=a[2]+b[2]
+print(y)
+z=a[0]*b[0]
+print(z)
+t=a[1]**b[3]
+print(t)
+e=a+b
+print(e)
