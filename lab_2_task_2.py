@@ -1,0 +1,10 @@
+print('Hello students')
+print('Сompose a geometric progression')
+print('Enter the first term of the geometric progression')
+a=int(input())
+print('Enter the denominator of the progression')
+b=int(input())
+print('Indicate the number of members of the progression, an integer')
+c=int(input())
+w=a*b*c
+print(w)
