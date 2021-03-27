@@ -8,3 +8,4 @@ def my_func(N):
 my_func(100000)
 #Плохо плохо
 #(lambda x: x + 1) (2)
+
