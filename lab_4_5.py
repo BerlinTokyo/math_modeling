@@ -1,9 +1,10 @@
 import lec_3_constans
-while i:
+i=2
+while i>1:
   print('Привет, площадь какой фигуры тебе хочется найти? 1 - круг, 2 - прямоуголник, 3 - треугольник')
-  x=input()
+  x=int(input())
   if x==1 or x==2 or x==3:
-    break
+    i = 0
   else:
     print('Не распозноваемый ответ')
 if x==1:
@@ -28,12 +29,12 @@ elif x==3:
   print('Введи значение четвертой стороны треугольника')
   fo=int(input())
   if fo!=0:
-  print('Ошибка, треугольник имеет только три стороны)')
-  print('Продолжим')
+    print('Ошибка, треугольник имеет только три стороны)')
+    print('Продолжим')
   else:
-  print('Неплохо)))')
-  print('Продолжим')
-  if van+ty>fri or van+fri>ty or ty+fri>van:
+    print('Неплохо)))')
+    print('Продолжим')
+  if van+ty>fri and van+fri>ty and ty+fri>van:
     peri=(van+ty+fri)/2
     print('Такой треугольник существует.')
     if van==ty or van==fri or ty==fri:
@@ -46,6 +47,6 @@ elif x==3:
       S13=(peri*(peri-van)*(peri-ty)*(peri-fri))**0.5
       print('Треугольник разносторонний, его площадь:' ,S13)
   else:
-    print('Такого треугольника не существует')
+   print('Такого треугольника не существует')
 
 

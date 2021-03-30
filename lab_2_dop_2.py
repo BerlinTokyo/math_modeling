@@ -12,7 +12,7 @@ if l!=0:
 else:
   print('Неплохо)))')
   print('Продолжим')
-if a+b>c or a+c>b or b+c>a:
+if a+b>c and a+c>b and b+c>a:
   print('Такой треугольник существует')
   if a==b or a==c or b==c:
     print('Треугольник равнобедренный')
